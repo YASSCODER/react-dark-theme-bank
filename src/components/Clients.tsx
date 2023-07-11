@@ -1,11 +1,6 @@
 import { clients } from "../constants"
 import styles from "../style"
 
-interface imgProps {
-  id: string,
-  logo: string
-}
-
 const Clients = () => {
   return (
     <section className={`${styles.flexCenter} my-4`}>
